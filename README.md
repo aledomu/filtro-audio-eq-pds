@@ -24,3 +24,9 @@ Posteriormente, se busca diseñar y aplicar un banco de filtros como ecualizador
 a la señal grabada. Cada filtro del banco estará asociado a un rango de
 frecuencias, y mediante una ganancia determinada se amplificará o atenuará cada
 rango de frecuencias.
+
+# Ejecutar la solución
+
+Hay que lanzar el script `buildFilterAndPlay`, con el audio de entrada en la
+raíz del directorio en formato WAV con el nombre `music.wav`. El resultado se
+escribirá en el archivo `music_with_eq.wav`.
